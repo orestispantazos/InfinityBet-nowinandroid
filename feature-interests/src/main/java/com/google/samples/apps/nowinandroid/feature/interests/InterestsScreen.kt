@@ -1,19 +1,3 @@
-/*
- * Copyright 2021 The Android Open Source Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     https://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
 package com.google.samples.apps.nowinandroid.feature.interests
 
 import androidx.compose.foundation.layout.Column
@@ -46,6 +30,7 @@ fun InterestsRoute(
     modifier: Modifier = Modifier,
     navigateToAuthor: (String) -> Unit,
     navigateToTopic: (String) -> Unit,
+    navigateToPrediction: (String) -> Unit,
     viewModel: InterestsViewModel = hiltViewModel()
 ) {
     val uiState by viewModel.uiState.collectAsState()
@@ -56,8 +41,10 @@ fun InterestsRoute(
         tabState = tabState,
         followTopic = viewModel::followTopic,
         followAuthor = viewModel::followAuthor,
+        followPrediction = viewModel::followPrediction,
         navigateToAuthor = navigateToAuthor,
         navigateToTopic = navigateToTopic,
+        navigateToPrediction = navigateToPrediction,
         switchTab = viewModel::switchTab,
         modifier = modifier
     )
@@ -69,8 +56,10 @@ fun InterestsScreen(
     tabState: InterestsTabState,
     followAuthor: (String, Boolean) -> Unit,
     followTopic: (String, Boolean) -> Unit,
+    followPrediction: (String, Boolean) -> Unit,
     navigateToAuthor: (String) -> Unit,
     navigateToTopic: (String) -> Unit,
+    navigateToPrediction: (String) -> Unit,
     switchTab: (Int) -> Unit,
     modifier: Modifier = Modifier,
 ) {
@@ -111,7 +100,9 @@ fun InterestsScreen(
                     navigateToTopic = navigateToTopic,
                     followTopic = followTopic,
                     navigateToAuthor = navigateToAuthor,
-                    followAuthor = followAuthor
+                    followAuthor = followAuthor,
+                    navigateToPrediction = navigateToPrediction,
+                    followPrediction = followPrediction
                 )
             is InterestsUiState.Empty -> InterestsEmptyScreen()
         }
@@ -127,6 +118,8 @@ private fun InterestsContent(
     followTopic: (String, Boolean) -> Unit,
     navigateToAuthor: (String) -> Unit,
     followAuthor: (String, Boolean) -> Unit,
+    navigateToPrediction: (String) -> Unit,
+    followPrediction: (String, Boolean) -> Unit,
     modifier: Modifier = Modifier
 ) {
     Column(modifier) {
@@ -153,6 +146,14 @@ private fun InterestsContent(
                     authors = uiState.authors,
                     onAuthorClick = navigateToAuthor,
                     onFollowButtonClick = followAuthor,
+                    modifier = Modifier.padding(top = 8.dp)
+                )
+            }
+            2 -> {
+                PredictionsTabContent(
+                    predictions = uiState.predictions,
+                    onPredictionClick = navigateToPrediction,
+                    onFollowButtonClick = followPrediction,
                     modifier = Modifier.padding(top = 8.dp)
                 )
             }

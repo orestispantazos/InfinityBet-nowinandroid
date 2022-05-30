@@ -2,7 +2,7 @@
   "formatVersion": 1,
   "database": {
     "version": 9,
-    "identityHash": "9294402ce9ec4e6bf008b0a1f5383ecd",
+    "identityHash": "2e41425eb21830f5bcce6c97a0abc94a",
     "entities": [
       {
         "tableName": "authors",
@@ -434,12 +434,72 @@
         },
         "indices": [],
         "foreignKeys": []
+      },
+      {
+        "tableName": "predictions",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` TEXT NOT NULL, `matchName` TEXT NOT NULL, `matchDate` TEXT NOT NULL, `status` TEXT NOT NULL DEFAULT '', `team1` TEXT NOT NULL DEFAULT '', `team2` TEXT NOT NULL DEFAULT '', `uniqueTip` TEXT NOT NULL DEFAULT '', PRIMARY KEY(`id`))",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "matchName",
+            "columnName": "matchName",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "matchDate",
+            "columnName": "matchDate",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "status",
+            "columnName": "status",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "''"
+          },
+          {
+            "fieldPath": "team1",
+            "columnName": "team1",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "''"
+          },
+          {
+            "fieldPath": "team2",
+            "columnName": "team2",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "''"
+          },
+          {
+            "fieldPath": "uniqueTip",
+            "columnName": "uniqueTip",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "''"
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "id"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": []
       }
     ],
     "views": [],
     "setupQueries": [
       "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
-      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '9294402ce9ec4e6bf008b0a1f5383ecd')"
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '2e41425eb21830f5bcce6c97a0abc94a')"
     ]
   }
 }

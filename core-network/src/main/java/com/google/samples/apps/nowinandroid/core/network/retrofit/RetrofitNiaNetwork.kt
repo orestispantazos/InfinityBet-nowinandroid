@@ -1,19 +1,3 @@
-/*
- * Copyright 2022 The Android Open Source Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     https://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
 package com.google.samples.apps.nowinandroid.core.network.retrofit
 
 import com.google.samples.apps.nowinandroid.core.network.BuildConfig
@@ -21,6 +5,7 @@ import com.google.samples.apps.nowinandroid.core.network.NiaNetwork
 import com.google.samples.apps.nowinandroid.core.network.model.NetworkAuthor
 import com.google.samples.apps.nowinandroid.core.network.model.NetworkChangeList
 import com.google.samples.apps.nowinandroid.core.network.model.NetworkNewsResource
+import com.google.samples.apps.nowinandroid.core.network.model.NetworkPrediction
 import com.google.samples.apps.nowinandroid.core.network.model.NetworkTopic
 import com.jakewharton.retrofit2.converter.kotlinx.serialization.asConverterFactory
 import javax.inject.Inject
@@ -48,6 +33,11 @@ private interface RetrofitNiaNetworkApi {
         @Query("id") ids: List<String>?,
     ): NetworkResponse<List<NetworkAuthor>>
 
+    @GET(value = "predictions")
+    suspend fun getPredictions(
+        @Query("id") ids: List<String>?,
+    ): NetworkResponse<List<NetworkPrediction>>
+
     @GET(value = "newsresources")
     suspend fun getNewsResources(
         @Query("id") ids: List<String>?,
@@ -60,6 +50,11 @@ private interface RetrofitNiaNetworkApi {
 
     @GET(value = "changelists/authors")
     suspend fun getAuthorsChangeList(
+        @Query("after") after: Int?,
+    ): List<NetworkChangeList>
+
+    @GET(value = "changelists/predictions")
+    suspend fun getPredictionsChangeList(
         @Query("after") after: Int?,
     ): List<NetworkChangeList>
 
@@ -109,6 +104,9 @@ class RetrofitNiaNetwork @Inject constructor(
     override suspend fun getAuthors(ids: List<String>?): List<NetworkAuthor> =
         networkApi.getAuthors(ids = ids).data
 
+    override suspend fun getPredictions(ids: List<String>?): List<NetworkPrediction> =
+        networkApi.getPredictions(ids = ids).data
+
     override suspend fun getNewsResources(ids: List<String>?): List<NetworkNewsResource> =
         networkApi.getNewsResources(ids = ids).data
 
@@ -117,6 +115,9 @@ class RetrofitNiaNetwork @Inject constructor(
 
     override suspend fun getAuthorChangeList(after: Int?): List<NetworkChangeList> =
         networkApi.getAuthorsChangeList(after = after)
+
+    override suspend fun getPredictionChangeList(after: Int?): List<NetworkChangeList> =
+        networkApi.getPredictionsChangeList(after = after)
 
     override suspend fun getNewsResourceChangeList(after: Int?): List<NetworkChangeList> =
         networkApi.getNewsResourcesChangeList(after = after)

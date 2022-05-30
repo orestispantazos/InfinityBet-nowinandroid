@@ -80,6 +80,22 @@ object FakeDataSource {
       "authors": [
         "2"
       ]
+    },
+    {
+      "id": "2",
+      "episodeId": "60",
+      "title": "Liverpool lost the UCL title",
+      "content": "Real Madrid have won the European Cup/Champions League on 14 occasions – twice as many times as any other side in the history of the competition.\n\nOnly Juventus (5) have lost more UEFA Champions League finals than Liverpool (3), while no manager has lost more finals in the competition’s history than Liverpool’s Jürgen Klopp (3).\n\nEach of the last three UEFA Champions League finals have finished with a 1-0 scoreline – as many as in the first 27 finals of the competition.\n\nLiverpool 0-1 Real Madrid",
+      "url": "https://www.uefa.com/uefachampionsleague/match/2034586--liverpool-vs-real-madrid/",
+      "headerImageUrl": "https://infinity-bet-storage-ea386551145656-staging.s3.eu-west-2.amazonaws.com/images/Liverpool-vs-Real-Salah.png",
+      "publishDate": "2022-05-30T02:00:00.000Z",
+      "type": "Article 📚",
+      "topics": [
+        "3"
+      ],
+      "authors": [
+        "2"
+      ]
     }
   ]
     """.trimIndent()
@@ -248,6 +264,30 @@ object FakeDataSource {
       "bio": ""
     }
   ]
+    """.trimIndent()
+
+    @Language("JSON")
+    val predictions = """
+[
+    {
+      "id": "1",
+      "matchName": "Man Utd - Leicester",
+      "matchDate": "2018-08-11T14:30:00.000Z",
+      "status": "https://firebasestorage.googleapis.com/v0/b/infinitybet-cbaa8.appspot.com/o/check.png?alt=media&token=908e4367-97eb-4c7b-9545-315ddce4a44f",
+      "team1": "https://infinity-bet-storage-ea386551145656-staging.s3.eu-west-2.amazonaws.com/Man+Utd.png",
+      "team2": "https://infinity-bet-storage-ea386551145656-staging.s3.eu-west-2.amazonaws.com/Leicester+City.png",
+      "uniqueTip": "2.00 - Over 2.5 Goals"
+    },
+    {
+      "id": "2",
+      "matchName": "Newcastle - Tottenham",
+      "matchDate": "2018-08-11T17:00:00.000Z",
+      "status": "https://firebasestorage.googleapis.com/v0/b/infinitybet-cbaa8.appspot.com/o/uncheck.png?alt=media&token=93e607f6-73ba-41a6-9056-7c4e49a48d10",
+      "team1": "https://infinity-bet-storage-ea386551145656-staging.s3.eu-west-2.amazonaws.com/Newcastle.png",
+      "team2": "https://infinity-bet-storage-ea386551145656-staging.s3.eu-west-2.amazonaws.com/Tottenham.jpeg",
+      "uniqueTip": "1.95 - Both Teams to Score (No)"
+    }
+]
     """.trimIndent()
 }
 

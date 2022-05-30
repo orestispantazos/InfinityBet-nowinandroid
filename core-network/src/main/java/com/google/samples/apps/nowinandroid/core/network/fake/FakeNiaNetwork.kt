@@ -6,6 +6,7 @@ import com.google.samples.apps.nowinandroid.core.network.NiaNetwork
 import com.google.samples.apps.nowinandroid.core.network.model.NetworkAuthor
 import com.google.samples.apps.nowinandroid.core.network.model.NetworkChangeList
 import com.google.samples.apps.nowinandroid.core.network.model.NetworkNewsResource
+import com.google.samples.apps.nowinandroid.core.network.model.NetworkPrediction
 import com.google.samples.apps.nowinandroid.core.network.model.NetworkTopic
 import javax.inject.Inject
 import kotlinx.coroutines.CoroutineDispatcher
@@ -35,11 +36,19 @@ class FakeNiaNetwork @Inject constructor(
             networkJson.decodeFromString(FakeDataSource.authors)
         }
 
+    override suspend fun getPredictions(ids: List<String>?): List<NetworkPrediction> =
+        withContext(ioDispatcher) {
+            networkJson.decodeFromString(FakeDataSource.predictions)
+        }
+
     override suspend fun getTopicChangeList(after: Int?): List<NetworkChangeList> =
         getTopics().mapToChangeList(NetworkTopic::id)
 
     override suspend fun getAuthorChangeList(after: Int?): List<NetworkChangeList> =
         getAuthors().mapToChangeList(NetworkAuthor::id)
+
+    override suspend fun getPredictionChangeList(after: Int?): List<NetworkChangeList> =
+        getPredictions().mapToChangeList(NetworkPrediction::id)
 
     override suspend fun getNewsResourceChangeList(after: Int?): List<NetworkChangeList> =
         getNewsResources().mapToChangeList(NetworkNewsResource::id)

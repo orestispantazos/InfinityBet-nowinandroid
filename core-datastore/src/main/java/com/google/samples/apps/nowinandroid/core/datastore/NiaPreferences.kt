@@ -1,19 +1,3 @@
-/*
- * Copyright 2022 The Android Open Source Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     https://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
 package com.google.samples.apps.nowinandroid.core.datastore
 
 import android.util.Log
@@ -118,6 +102,21 @@ class NiaPreferences @Inject constructor(
         }
     }
 
+    suspend fun setFollowedPredictionIds(followedPredictionIds: Set<String>) {
+        try {
+            userPreferences.updateData {
+                it.copy {
+                    this.followedAuthorIds.clear()
+                    this.followedAuthorIds.addAll(followedAuthorIds)
+//                    this.followedPredictionIds.clear()
+//                    this.followedPredictionIds.addAll(followedPredictionIds)
+                }
+            }
+        } catch (ioException: IOException) {
+            Log.e("NiaPreferences", "Failed to update user preferences", ioException)
+        }
+    }
+
     suspend fun toggleFollowedAuthorId(followedAuthorId: String, followed: Boolean) {
         try {
             userPreferences.updateData {
@@ -137,10 +136,44 @@ class NiaPreferences @Inject constructor(
         }
     }
 
+    suspend fun toggleFollowedPredictionId(followedPredictionId: String, followed: Boolean) {
+        try {
+            userPreferences.updateData {
+                it.copy {
+                    val current =
+                        if (followed) {
+                            followedAuthorIds + followedPredictionId
+                        } else {
+                            followedAuthorIds - followedPredictionId
+                        }
+//                        if (followed) {
+//                            followedPredictionIds + followedPredictionId
+//                        } else {
+//                            followedPredictionIds - followedPredictionId
+//                        }
+                    this.followedAuthorIds.clear()
+                    this.followedAuthorIds.addAll(current)
+//                    this.followedPredictionIds.clear()
+//                    this.followedPredictionIds.addAll(current)
+                }
+            }
+        } catch (ioException: IOException) {
+            Log.e("NiaPreferences", "Failed to update user preferences", ioException)
+        }
+    }
+
     val followedAuthorIds: Flow<Set<String>> = userPreferences.data
         .retry {
             Log.e("NiaPreferences", "Failed to read user preferences", it)
             true
         }
         .map { it.followedAuthorIdsList.toSet() }
+
+    val followedPredictionIds: Flow<Set<String>> = userPreferences.data
+        .retry {
+            Log.e("NiaPreferences", "Failed to read user preferences", it)
+            true
+        }
+        .map { it.followedAuthorIdsList.toSet() }
+        // .map { it.followedPredictionIdsList.toSet() }
 }
