@@ -1,4 +1,4 @@
-package com.google.samples.apps.nowinandroid.core.ui
+package com.infinitybet.premierleague.core.ui
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.interaction.MutableInteractionSource

@@ -1,4 +1,4 @@
-package com.google.samples.apps.nowinandroid.feature.topic
+package com.infinitybet.premierleague.feature.topic
 
 import androidx.annotation.VisibleForTesting
 import androidx.compose.foundation.ExperimentalFoundationApi
@@ -36,8 +36,8 @@ import com.infinitybet.premierleague.core.model.data.FollowableTopic
 import com.infinitybet.premierleague.core.ui.LoadingWheel
 import com.infinitybet.premierleague.core.ui.component.NiaFilterChip
 import com.infinitybet.premierleague.core.ui.newsResourceCardItems
-import com.google.samples.apps.nowinandroid.feature.topic.R.string
-import com.google.samples.apps.nowinandroid.feature.topic.TopicUiState.Loading
+import com.infinitybet.premierleague.feature.topic.R.string
+import com.infinitybet.premierleague.feature.topic.TopicUiState.Loading
 
 @Composable
 fun TopicRoute(

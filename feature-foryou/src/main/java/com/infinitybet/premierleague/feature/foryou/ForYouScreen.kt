@@ -1,4 +1,4 @@
-package com.google.samples.apps.nowinandroid.feature.foryou
+package com.infinitybet.premierleague.feature.foryou
 
 import android.content.Intent
 import android.net.Uri
@@ -80,11 +80,11 @@ import com.infinitybet.premierleague.core.ui.component.NiaTopAppBar
 import com.infinitybet.premierleague.core.ui.icon.NiaIcons
 import com.infinitybet.premierleague.core.ui.theme.NiaTheme
 import com.infinitybet.premierleague.core.ui.theme.NiaTypography
-import com.google.samples.apps.nowinandroid.feature.foryou.ForYouFeedUiState.Success
-import com.google.samples.apps.nowinandroid.feature.foryou.ForYouInterestsSelectionUiState.Loading
-import com.google.samples.apps.nowinandroid.feature.foryou.ForYouInterestsSelectionUiState.NoInterestsSelection
-import com.google.samples.apps.nowinandroid.feature.foryou.ForYouInterestsSelectionUiState.WithInterestsSelection
-import com.google.samples.apps.nowinandroid.feature.foryou.R.string
+import com.infinitybet.premierleague.feature.foryou.ForYouFeedUiState.Success
+import com.infinitybet.premierleague.feature.foryou.ForYouInterestsSelectionUiState.Loading
+import com.infinitybet.premierleague.feature.foryou.ForYouInterestsSelectionUiState.NoInterestsSelection
+import com.infinitybet.premierleague.feature.foryou.ForYouInterestsSelectionUiState.WithInterestsSelection
+import com.infinitybet.premierleague.feature.foryou.R.string
 import kotlin.math.floor
 import kotlinx.datetime.Instant
 

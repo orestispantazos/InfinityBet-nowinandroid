@@ -1,4 +1,4 @@
-package com.google.samples.apps.nowinandroid.core.ui
+package com.infinitybet.premierleague.core.ui
 
 import android.content.res.Configuration
 import androidx.compose.animation.animateColor
@@ -30,7 +30,7 @@ import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.google.samples.apps.nowinandroid.core.ui.theme.NiaTheme
+import com.infinitybet.premierleague.core.ui.theme.NiaTheme
 import kotlinx.coroutines.launch
 
 @Composable

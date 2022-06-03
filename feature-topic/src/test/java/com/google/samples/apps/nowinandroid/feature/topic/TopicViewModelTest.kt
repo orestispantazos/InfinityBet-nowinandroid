@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.feature.topic
+package com.infinitybet.premierleague.feature.topic
 
 import androidx.lifecycle.SavedStateHandle
 import app.cash.turbine.test
-import com.google.samples.apps.nowinandroid.core.model.data.FollowableTopic
-import com.google.samples.apps.nowinandroid.core.model.data.NewsResource
-import com.google.samples.apps.nowinandroid.core.model.data.NewsResourceType.Video
-import com.google.samples.apps.nowinandroid.core.model.data.Topic
-import com.google.samples.apps.nowinandroid.core.testing.repository.TestNewsRepository
-import com.google.samples.apps.nowinandroid.core.testing.repository.TestTopicsRepository
-import com.google.samples.apps.nowinandroid.core.testing.util.TestDispatcherRule
-import com.google.samples.apps.nowinandroid.feature.topic.navigation.TopicDestination
+import com.infinitybet.premierleague.core.model.data.FollowableTopic
+import com.infinitybet.premierleague.core.model.data.NewsResource
+import com.infinitybet.premierleague.core.model.data.NewsResourceType.Video
+import com.infinitybet.premierleague.core.model.data.Topic
+import com.infinitybet.premierleague.core.testing.repository.TestNewsRepository
+import com.infinitybet.premierleague.core.testing.repository.TestTopicsRepository
+import com.infinitybet.premierleague.core.testing.util.TestDispatcherRule
+import com.infinitybet.premierleague.feature.topic.navigation.TopicDestination
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.test.runTest
 import kotlinx.datetime.Instant

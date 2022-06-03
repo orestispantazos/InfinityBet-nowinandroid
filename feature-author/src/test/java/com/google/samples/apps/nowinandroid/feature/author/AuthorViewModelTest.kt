@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.feature.author
+package com.infinitybet.premierleague.feature.author
 
 import androidx.lifecycle.SavedStateHandle
 import app.cash.turbine.test
-import com.google.samples.apps.nowinandroid.core.model.data.Author
-import com.google.samples.apps.nowinandroid.core.model.data.FollowableAuthor
-import com.google.samples.apps.nowinandroid.core.model.data.NewsResource
-import com.google.samples.apps.nowinandroid.core.model.data.NewsResourceType.Video
-import com.google.samples.apps.nowinandroid.core.testing.repository.TestAuthorsRepository
-import com.google.samples.apps.nowinandroid.core.testing.repository.TestNewsRepository
-import com.google.samples.apps.nowinandroid.core.testing.util.TestDispatcherRule
-import com.google.samples.apps.nowinandroid.feature.author.navigation.AuthorDestination
+import com.infinitybet.premierleague.core.model.data.Author
+import com.infinitybet.premierleague.core.model.data.FollowableAuthor
+import com.infinitybet.premierleague.core.model.data.NewsResource
+import com.infinitybet.premierleague.core.model.data.NewsResourceType.Video
+import com.infinitybet.premierleague.core.testing.repository.TestAuthorsRepository
+import com.infinitybet.premierleague.core.testing.repository.TestNewsRepository
+import com.infinitybet.premierleague.core.testing.util.TestDispatcherRule
+import com.infinitybet.premierleague.feature.author.navigation.AuthorDestination
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.test.runTest
 import kotlinx.datetime.Instant

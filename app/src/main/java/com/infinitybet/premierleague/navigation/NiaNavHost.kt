@@ -1,4 +1,4 @@
-package com.google.samples.apps.nowinandroid.navigation
+package com.infinitybet.premierleague.navigation
 
 import androidx.compose.material3.windowsizeclass.WindowSizeClass
 import androidx.compose.runtime.Composable
@@ -6,14 +6,14 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.rememberNavController
-import com.google.samples.apps.nowinandroid.feature.author.navigation.AuthorDestination
-import com.google.samples.apps.nowinandroid.feature.author.navigation.authorGraph
-import com.google.samples.apps.nowinandroid.feature.author.navigation.predictionGraph
-import com.google.samples.apps.nowinandroid.feature.foryou.navigation.ForYouDestination
-import com.google.samples.apps.nowinandroid.feature.foryou.navigation.forYouGraph
-import com.google.samples.apps.nowinandroid.feature.interests.navigation.interestsGraph
-import com.google.samples.apps.nowinandroid.feature.topic.navigation.TopicDestination
-import com.google.samples.apps.nowinandroid.feature.topic.navigation.topicGraph
+import com.infinitybet.premierleague.feature.author.navigation.AuthorDestination
+import com.infinitybet.premierleague.feature.author.navigation.authorGraph
+import com.infinitybet.premierleague.feature.author.navigation.predictionGraph
+import com.infinitybet.premierleague.feature.foryou.navigation.ForYouDestination
+import com.infinitybet.premierleague.feature.foryou.navigation.forYouGraph
+import com.infinitybet.premierleague.feature.interests.navigation.interestsGraph
+import com.infinitybet.premierleague.feature.topic.navigation.TopicDestination
+import com.infinitybet.premierleague.feature.topic.navigation.topicGraph
 
 /**
  * Top-level navigation graph. Navigation is organized as explained at

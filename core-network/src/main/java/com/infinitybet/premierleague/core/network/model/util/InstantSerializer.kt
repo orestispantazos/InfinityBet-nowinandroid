@@ -1,4 +1,4 @@
-package com.google.samples.apps.nowinandroid.core.network.model.util
+package com.infinitybet.premierleague.core.network.model.util
 
 import kotlinx.datetime.Instant
 import kotlinx.datetime.toInstant

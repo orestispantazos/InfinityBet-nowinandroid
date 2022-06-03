@@ -1,7 +1,7 @@
-package com.google.samples.apps.nowinandroid.core.data.repository
+package com.infinitybet.premierleague.core.data.repository
 
-import com.google.samples.apps.nowinandroid.core.data.Syncable
-import com.google.samples.apps.nowinandroid.core.model.data.Author
+import com.infinitybet.premierleague.core.data.Syncable
+import com.infinitybet.premierleague.core.model.data.Author
 import kotlinx.coroutines.flow.Flow
 
 interface AuthorsRepository : Syncable {

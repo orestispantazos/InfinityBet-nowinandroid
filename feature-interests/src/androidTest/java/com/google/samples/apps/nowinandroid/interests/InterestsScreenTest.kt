@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.interests
+package com.infinitybet.premierleague.interests
 
 import androidx.activity.ComponentActivity
 import androidx.compose.runtime.Composable
@@ -25,14 +25,14 @@ import androidx.compose.ui.test.onAllNodesWithContentDescription
 import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.onNodeWithText
-import com.google.samples.apps.nowinandroid.core.model.data.Author
-import com.google.samples.apps.nowinandroid.core.model.data.FollowableAuthor
-import com.google.samples.apps.nowinandroid.core.model.data.FollowableTopic
-import com.google.samples.apps.nowinandroid.core.model.data.Topic
-import com.google.samples.apps.nowinandroid.feature.interests.InterestsScreen
-import com.google.samples.apps.nowinandroid.feature.interests.InterestsTabState
-import com.google.samples.apps.nowinandroid.feature.interests.InterestsUiState
-import com.google.samples.apps.nowinandroid.feature.interests.R
+import com.infinitybet.premierleague.core.model.data.Author
+import com.infinitybet.premierleague.core.model.data.FollowableAuthor
+import com.infinitybet.premierleague.core.model.data.FollowableTopic
+import com.infinitybet.premierleague.core.model.data.Topic
+import com.infinitybet.premierleague.feature.interests.InterestsScreen
+import com.infinitybet.premierleague.feature.interests.InterestsTabState
+import com.infinitybet.premierleague.feature.interests.InterestsUiState
+import com.infinitybet.premierleague.feature.interests.R
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test

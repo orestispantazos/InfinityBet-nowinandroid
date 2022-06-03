@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import com.google.samples.apps.nowinandroid.configureJacoco
+import com.infinitybet.premierleague.configureJacoco
 
 plugins {
     id("com.android.library")

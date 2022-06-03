@@ -1,7 +1,6 @@
-package com.google.samples.apps.nowinandroid.core.network.model
+package com.infinitybet.premierleague.core.network.model
 
-import com.google.samples.apps.nowinandroid.core.model.data.Episode
-import com.google.samples.apps.nowinandroid.core.network.model.util.InstantSerializer
+import com.infinitybet.premierleague.core.network.model.util.InstantSerializer
 import kotlinx.datetime.Instant
 import kotlinx.serialization.Serializable
 

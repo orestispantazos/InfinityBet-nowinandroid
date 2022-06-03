@@ -1,9 +1,9 @@
-package com.google.samples.apps.nowinandroid.core.database.model
+package com.infinitybet.premierleague.core.database.model
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.google.samples.apps.nowinandroid.core.model.data.Prediction
+import com.infinitybet.premierleague.core.model.data.Prediction
 
 /**
  * Defines an author for either an [EpisodeEntity] or [NewsResourceEntity].

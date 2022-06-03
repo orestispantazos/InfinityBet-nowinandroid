@@ -1,4 +1,4 @@
-package com.google.samples.apps.nowinandroid.core.ui
+package com.infinitybet.premierleague.core.ui
 
 import android.content.Intent
 import android.net.Uri

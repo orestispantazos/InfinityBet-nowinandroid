@@ -18,7 +18,7 @@ android {
             arg("room.schemaLocation", "$projectDir/schemas")
         }
 
-        testInstrumentationRunner = "com.google.samples.apps.nowinandroid.core.testing.NiaTestRunner"
+        testInstrumentationRunner = "com.infinitybet.premierleague.core.testing.NiaTestRunner"
     }
 }
 

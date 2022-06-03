@@ -1,4 +1,4 @@
-package com.google.samples.apps.nowinandroid.core.database
+package com.infinitybet.premierleague.core.database
 
 import android.content.Context
 import androidx.room.Room

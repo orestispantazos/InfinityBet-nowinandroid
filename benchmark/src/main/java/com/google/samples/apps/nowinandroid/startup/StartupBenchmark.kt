@@ -1,4 +1,4 @@
-package com.google.samples.apps.nowinandroid.startup
+package com.infinitybet.premierleague.startup
 
 import androidx.benchmark.macro.BaselineProfileMode.Disable
 import androidx.benchmark.macro.BaselineProfileMode.Require
@@ -58,7 +58,7 @@ abstract class AbstractStartupBenchmark(private val startupMode: StartupMode) {
     fun startupFullCompilation() = startup(CompilationMode.Full())
 
     private fun startup(compilationMode: CompilationMode) = benchmarkRule.measureRepeated(
-        packageName = "com.google.samples.apps.nowinandroid",
+        packageName = "com.infinitybet.premierleague",
         metrics = listOf(StartupTimingMetric()),
         compilationMode = compilationMode,
         iterations = 10,

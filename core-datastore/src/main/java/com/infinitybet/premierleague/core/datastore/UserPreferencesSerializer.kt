@@ -1,8 +1,9 @@
-package com.google.samples.apps.nowinandroid.core.datastore
+package com.infinitybet.premierleague.core.datastore
 
 import androidx.datastore.core.CorruptionException
 import androidx.datastore.core.Serializer
 import com.google.protobuf.InvalidProtocolBufferException
+import com.infinitybet.premierleague.core.datastore.UserPreferences
 import java.io.InputStream
 import java.io.OutputStream
 import javax.inject.Inject

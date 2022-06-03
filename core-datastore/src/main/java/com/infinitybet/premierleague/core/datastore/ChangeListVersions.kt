@@ -1,4 +1,4 @@
-package com.google.samples.apps.nowinandroid.core.datastore
+package com.infinitybet.premierleague.core.datastore
 
 /**
  * Class summarizing the local version of each model for sync

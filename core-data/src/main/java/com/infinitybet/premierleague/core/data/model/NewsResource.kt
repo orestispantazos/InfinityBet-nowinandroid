@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.core.data.model
+package com.infinitybet.premierleague.core.data.model
 
-import com.google.samples.apps.nowinandroid.core.database.model.AuthorEntity
-import com.google.samples.apps.nowinandroid.core.database.model.EpisodeEntity
-import com.google.samples.apps.nowinandroid.core.database.model.NewsResourceAuthorCrossRef
-import com.google.samples.apps.nowinandroid.core.database.model.NewsResourceEntity
-import com.google.samples.apps.nowinandroid.core.database.model.NewsResourceTopicCrossRef
-import com.google.samples.apps.nowinandroid.core.database.model.TopicEntity
+import com.infinitybet.premierleague.core.database.model.AuthorEntity
+import com.infinitybet.premierleague.core.database.model.EpisodeEntity
+import com.infinitybet.premierleague.core.database.model.NewsResourceAuthorCrossRef
+import com.infinitybet.premierleague.core.database.model.NewsResourceEntity
+import com.infinitybet.premierleague.core.database.model.NewsResourceTopicCrossRef
+import com.infinitybet.premierleague.core.database.model.TopicEntity
 import com.infinitybet.premierleague.core.network.model.NetworkNewsResource
 import com.infinitybet.premierleague.core.network.model.NetworkNewsResourceExpanded
 

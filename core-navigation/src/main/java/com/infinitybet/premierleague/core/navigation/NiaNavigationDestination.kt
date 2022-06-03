@@ -1,4 +1,4 @@
-package com.google.samples.apps.nowinandroid.core.navigation
+package com.infinitybet.premierleague.core.navigation
 
 /**
  * Interface for describing the Now in Android navigation destinations

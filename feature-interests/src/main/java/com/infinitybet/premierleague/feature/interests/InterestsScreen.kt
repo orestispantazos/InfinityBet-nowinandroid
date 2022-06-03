@@ -1,4 +1,4 @@
-package com.google.samples.apps.nowinandroid.feature.interests
+package com.infinitybet.premierleague.feature.interests
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -23,7 +23,7 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import com.infinitybet.premierleague.core.ui.LoadingWheel
 import com.infinitybet.premierleague.core.ui.component.NiaTab
 import com.infinitybet.premierleague.core.ui.component.NiaTabRow
-import com.google.samples.apps.nowinandroid.feature.interests.R.string
+import com.infinitybet.premierleague.feature.interests.R.string
 import com.infinitybet.premierleague.core.ui.component.NiaTopAppBar
 
 @Composable

@@ -1,4 +1,4 @@
-package com.google.samples.apps.nowinandroid.ui
+package com.infinitybet.premierleague.ui
 
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.Row
@@ -34,12 +34,12 @@ import androidx.navigation.NavDestination
 import androidx.navigation.NavDestination.Companion.hierarchy
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
-import com.google.samples.apps.nowinandroid.core.ui.component.NiaBackground
-import com.google.samples.apps.nowinandroid.core.ui.theme.NiaTheme
-import com.google.samples.apps.nowinandroid.navigation.NiaNavHost
-import com.google.samples.apps.nowinandroid.navigation.NiaTopLevelNavigation
-import com.google.samples.apps.nowinandroid.navigation.TOP_LEVEL_DESTINATIONS
-import com.google.samples.apps.nowinandroid.navigation.TopLevelDestination
+import com.infinitybet.premierleague.core.ui.component.NiaBackground
+import com.infinitybet.premierleague.core.ui.theme.NiaTheme
+import com.infinitybet.premierleague.navigation.NiaNavHost
+import com.infinitybet.premierleague.navigation.NiaTopLevelNavigation
+import com.infinitybet.premierleague.navigation.TOP_LEVEL_DESTINATIONS
+import com.infinitybet.premierleague.navigation.TopLevelDestination
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalLayoutApi::class)
 @Composable

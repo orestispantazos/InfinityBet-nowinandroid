@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.core.datastore.test
+package com.infinitybet.premierleague.core.datastore.test
 
 import androidx.datastore.core.DataStore
 import androidx.datastore.core.DataStoreFactory
-import com.google.samples.apps.nowinandroid.core.datastore.UserPreferences
-import com.google.samples.apps.nowinandroid.core.datastore.UserPreferencesSerializer
-import com.google.samples.apps.nowinandroid.core.datastore.di.DataStoreModule
+import com.infinitybet.premierleague.core.datastore.UserPreferences
+import com.infinitybet.premierleague.core.datastore.UserPreferencesSerializer
+import com.infinitybet.premierleague.core.datastore.di.DataStoreModule
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.components.SingletonComponent

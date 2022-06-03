@@ -1,4 +1,4 @@
-package com.google.samples.apps.nowinandroid.core.network.model
+package com.infinitybet.premierleague.core.network.model
 
 import kotlinx.serialization.Serializable
 

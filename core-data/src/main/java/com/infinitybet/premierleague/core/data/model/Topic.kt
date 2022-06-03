@@ -1,6 +1,6 @@
-package com.google.samples.apps.nowinandroid.core.data.model
+package com.infinitybet.premierleague.core.data.model
 
-import com.google.samples.apps.nowinandroid.core.database.model.TopicEntity
+import com.infinitybet.premierleague.core.database.model.TopicEntity
 import com.infinitybet.premierleague.core.network.model.NetworkTopic
 
 fun NetworkTopic.asEntity() = TopicEntity(

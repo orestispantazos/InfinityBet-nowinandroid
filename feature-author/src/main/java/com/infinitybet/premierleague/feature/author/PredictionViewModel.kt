@@ -1,4 +1,4 @@
-package com.google.samples.apps.nowinandroid.feature.author
+package com.infinitybet.premierleague.feature.author
 
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
@@ -10,7 +10,7 @@ import com.infinitybet.premierleague.core.model.data.NewsResource
 import com.infinitybet.premierleague.core.model.data.Prediction
 import com.infinitybet.premierleague.core.result.Result
 import com.infinitybet.premierleague.core.result.asResult
-import com.google.samples.apps.nowinandroid.feature.author.navigation.PredictionDestination
+import com.infinitybet.premierleague.feature.author.navigation.PredictionDestination
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 import kotlinx.coroutines.flow.Flow

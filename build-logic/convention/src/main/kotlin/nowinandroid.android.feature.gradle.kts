@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import com.google.samples.apps.nowinandroid.configureKotlinAndroid
+import com.infinitybet.premierleague.configureKotlinAndroid
 import org.gradle.kotlin.dsl.support.delegates.ProjectDelegate
 
 plugins {
@@ -26,7 +26,7 @@ plugins {
 android {
     defaultConfig {
         testInstrumentationRunner =
-            "com.google.samples.apps.nowinandroid.core.testing.NiaTestRunner"
+            "com.infinitybet.premierleague.core.testing.NiaTestRunner"
     }
 }
 

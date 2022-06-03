@@ -1,8 +1,8 @@
-package com.google.samples.apps.nowinandroid.core.database.util
+package com.infinitybet.premierleague.core.database.util
 
 import androidx.room.TypeConverter
-import com.google.samples.apps.nowinandroid.core.model.data.NewsResourceType
-import com.google.samples.apps.nowinandroid.core.model.data.asNewsResourceType
+import com.infinitybet.premierleague.core.model.data.NewsResourceType
+import com.infinitybet.premierleague.core.model.data.asNewsResourceType
 import kotlinx.datetime.Instant
 
 class InstantConverter {

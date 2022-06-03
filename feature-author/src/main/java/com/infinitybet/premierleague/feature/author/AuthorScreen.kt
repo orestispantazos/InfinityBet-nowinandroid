@@ -1,4 +1,4 @@
-package com.google.samples.apps.nowinandroid.feature.author
+package com.infinitybet.premierleague.feature.author
 
 import androidx.annotation.VisibleForTesting
 import androidx.compose.foundation.ExperimentalFoundationApi
@@ -40,8 +40,8 @@ import com.infinitybet.premierleague.core.model.data.FollowableAuthor
 import com.infinitybet.premierleague.core.ui.LoadingWheel
 import com.infinitybet.premierleague.core.ui.component.NiaFilterChip
 import com.infinitybet.premierleague.core.ui.newsResourceCardItems
-import com.google.samples.apps.nowinandroid.feature.author.AuthorUiState.Loading
-import com.google.samples.apps.nowinandroid.feature.author.R.string
+import com.infinitybet.premierleague.feature.author.AuthorUiState.Loading
+import com.infinitybet.premierleague.feature.author.R.string
 
 @Composable
 fun AuthorRoute(

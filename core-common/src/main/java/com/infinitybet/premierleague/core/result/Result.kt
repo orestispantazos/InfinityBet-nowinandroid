@@ -1,4 +1,4 @@
-package com.google.samples.apps.nowinandroid.core.result
+package com.infinitybet.premierleague.core.result
 
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.catch

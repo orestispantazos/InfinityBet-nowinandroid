@@ -9,13 +9,21 @@ plugins {
 }
 
 android {
+    signingConfigs {
+        create("release") {
+            storeFile = file("/Users/apps4devssupport/Music/android-jks-infinitybet/android.jks")
+            storePassword = "91782845"
+            keyAlias = "key0"
+            keyPassword = "91782845"
+        }
+    }
     defaultConfig {
-        applicationId = "com.google.samples.apps.nowinandroid"
-        versionCode = 1
-        versionName = "0.0.1" // X.Y.Z; X = Major, Y = minor, Z = Patch level
+        applicationId = "com.infinitybet.premierleague"
+        versionCode = 2
+        versionName = "0.0.2" // X.Y.Z; X = Major, Y = minor, Z = Patch level
 
         // Custom test runner to set up Hilt dependency graph
-        testInstrumentationRunner = "com.google.samples.apps.nowinandroid.core.testing.NiaTestRunner"
+        testInstrumentationRunner = "com.infinitybet.premierleague.core.testing.NiaTestRunner"
         vectorDrawables {
             useSupportLibrary = true
         }

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.feature.foryou
+package com.infinitybet.premierleague.feature.foryou
 
 import androidx.activity.ComponentActivity
 import androidx.compose.foundation.layout.BoxWithConstraints
@@ -36,13 +36,13 @@ import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performScrollToNode
 import androidx.compose.ui.unit.DpSize
-import com.google.samples.apps.nowinandroid.core.model.data.Author
-import com.google.samples.apps.nowinandroid.core.model.data.FollowableAuthor
-import com.google.samples.apps.nowinandroid.core.model.data.FollowableTopic
-import com.google.samples.apps.nowinandroid.core.model.data.NewsResource
-import com.google.samples.apps.nowinandroid.core.model.data.NewsResourceType.Video
-import com.google.samples.apps.nowinandroid.core.model.data.SaveableNewsResource
-import com.google.samples.apps.nowinandroid.core.model.data.Topic
+import com.infinitybet.premierleague.core.model.data.Author
+import com.infinitybet.premierleague.core.model.data.FollowableAuthor
+import com.infinitybet.premierleague.core.model.data.FollowableTopic
+import com.infinitybet.premierleague.core.model.data.NewsResource
+import com.infinitybet.premierleague.core.model.data.NewsResourceType.Video
+import com.infinitybet.premierleague.core.model.data.SaveableNewsResource
+import com.infinitybet.premierleague.core.model.data.Topic
 import kotlinx.datetime.Instant
 import org.junit.Assert.assertTrue
 import org.junit.Rule

@@ -1,7 +1,7 @@
-package com.google.samples.apps.nowinandroid.core.network.di
+package com.infinitybet.premierleague.core.network.di
 
-import com.google.samples.apps.nowinandroid.core.network.NiaNetwork
-import com.google.samples.apps.nowinandroid.core.network.fake.FakeNiaNetwork
+import com.infinitybet.premierleague.core.network.NiaNetwork
+import com.infinitybet.premierleague.core.network.fake.FakeNiaNetwork
 import dagger.Binds
 import dagger.Module
 import dagger.Provides

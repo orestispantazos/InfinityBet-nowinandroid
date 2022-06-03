@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.core.testing.repository
+package com.infinitybet.premierleague.core.testing.repository
 
-import com.google.samples.apps.nowinandroid.core.data.Synchronizer
-import com.google.samples.apps.nowinandroid.core.data.repository.NewsRepository
-import com.google.samples.apps.nowinandroid.core.model.data.Author
-import com.google.samples.apps.nowinandroid.core.model.data.NewsResource
-import com.google.samples.apps.nowinandroid.core.model.data.Topic
+import com.infinitybet.premierleague.core.data.Synchronizer
+import com.infinitybet.premierleague.core.data.repository.NewsRepository
+import com.infinitybet.premierleague.core.model.data.Author
+import com.infinitybet.premierleague.core.model.data.NewsResource
+import com.infinitybet.premierleague.core.model.data.Topic
 import kotlinx.coroutines.channels.BufferOverflow
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableSharedFlow

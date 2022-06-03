@@ -1,12 +1,12 @@
-package com.google.samples.apps.nowinandroid.core.network.retrofit
+package com.infinitybet.premierleague.core.network.retrofit
 
-import com.google.samples.apps.nowinandroid.core.network.BuildConfig
-import com.google.samples.apps.nowinandroid.core.network.NiaNetwork
-import com.google.samples.apps.nowinandroid.core.network.model.NetworkAuthor
-import com.google.samples.apps.nowinandroid.core.network.model.NetworkChangeList
-import com.google.samples.apps.nowinandroid.core.network.model.NetworkNewsResource
-import com.google.samples.apps.nowinandroid.core.network.model.NetworkPrediction
-import com.google.samples.apps.nowinandroid.core.network.model.NetworkTopic
+import com.infinitybet.premierleague.core.network.NiaNetwork
+import com.infinitybet.premierleague.core.network.model.NetworkChangeList
+import com.infinitybet.premierleague.core.network.model.NetworkNewsResource
+import com.infinitybet.premierleague.core.network.model.NetworkPrediction
+import com.infinitybet.premierleague.core.network.model.NetworkTopic
+import com.infinitybet.premierleague.core.network.BuildConfig
+import com.infinitybet.premierleague.core.network.model.NetworkAuthor
 import com.jakewharton.retrofit2.converter.kotlinx.serialization.asConverterFactory
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json

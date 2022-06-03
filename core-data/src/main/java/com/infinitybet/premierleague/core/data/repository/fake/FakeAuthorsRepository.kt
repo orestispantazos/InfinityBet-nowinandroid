@@ -1,9 +1,9 @@
-package com.google.samples.apps.nowinandroid.core.data.repository.fake
+package com.infinitybet.premierleague.core.data.repository.fake
 
-import com.google.samples.apps.nowinandroid.core.data.Synchronizer
-import com.google.samples.apps.nowinandroid.core.data.repository.AuthorsRepository
-import com.google.samples.apps.nowinandroid.core.datastore.NiaPreferences
-import com.google.samples.apps.nowinandroid.core.model.data.Author
+import com.infinitybet.premierleague.core.data.Synchronizer
+import com.infinitybet.premierleague.core.data.repository.AuthorsRepository
+import com.infinitybet.premierleague.core.datastore.NiaPreferences
+import com.infinitybet.premierleague.core.model.data.Author
 import com.infinitybet.premierleague.core.network.Dispatcher
 import com.infinitybet.premierleague.core.network.NiaDispatchers.IO
 import com.infinitybet.premierleague.core.network.fake.FakeDataSource

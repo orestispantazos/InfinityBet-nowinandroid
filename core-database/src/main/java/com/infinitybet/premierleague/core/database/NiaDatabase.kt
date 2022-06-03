@@ -1,24 +1,24 @@
-package com.google.samples.apps.nowinandroid.core.database
+package com.infinitybet.premierleague.core.database
 
 import androidx.room.AutoMigration
 import androidx.room.Database
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
-import com.google.samples.apps.nowinandroid.core.database.dao.AuthorDao
-import com.google.samples.apps.nowinandroid.core.database.dao.EpisodeDao
-import com.google.samples.apps.nowinandroid.core.database.dao.NewsResourceDao
-import com.google.samples.apps.nowinandroid.core.database.dao.PredictionDao
-import com.google.samples.apps.nowinandroid.core.database.dao.TopicDao
-import com.google.samples.apps.nowinandroid.core.database.model.AuthorEntity
-import com.google.samples.apps.nowinandroid.core.database.model.EpisodeAuthorCrossRef
-import com.google.samples.apps.nowinandroid.core.database.model.EpisodeEntity
-import com.google.samples.apps.nowinandroid.core.database.model.NewsResourceAuthorCrossRef
-import com.google.samples.apps.nowinandroid.core.database.model.NewsResourceEntity
-import com.google.samples.apps.nowinandroid.core.database.model.NewsResourceTopicCrossRef
-import com.google.samples.apps.nowinandroid.core.database.model.PredictionEntity
-import com.google.samples.apps.nowinandroid.core.database.model.TopicEntity
-import com.google.samples.apps.nowinandroid.core.database.util.InstantConverter
-import com.google.samples.apps.nowinandroid.core.database.util.NewsResourceTypeConverter
+import com.infinitybet.premierleague.core.database.dao.AuthorDao
+import com.infinitybet.premierleague.core.database.dao.EpisodeDao
+import com.infinitybet.premierleague.core.database.dao.NewsResourceDao
+import com.infinitybet.premierleague.core.database.dao.PredictionDao
+import com.infinitybet.premierleague.core.database.dao.TopicDao
+import com.infinitybet.premierleague.core.database.model.AuthorEntity
+import com.infinitybet.premierleague.core.database.model.EpisodeAuthorCrossRef
+import com.infinitybet.premierleague.core.database.model.EpisodeEntity
+import com.infinitybet.premierleague.core.database.model.NewsResourceAuthorCrossRef
+import com.infinitybet.premierleague.core.database.model.NewsResourceEntity
+import com.infinitybet.premierleague.core.database.model.NewsResourceTopicCrossRef
+import com.infinitybet.premierleague.core.database.model.PredictionEntity
+import com.infinitybet.premierleague.core.database.model.TopicEntity
+import com.infinitybet.premierleague.core.database.util.InstantConverter
+import com.infinitybet.premierleague.core.database.util.NewsResourceTypeConverter
 
 @Database(
     entities = [

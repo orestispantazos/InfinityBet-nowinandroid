@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.core.data.model
+package com.infinitybet.premierleague.core.data.model
 
-import com.google.samples.apps.nowinandroid.core.database.model.AuthorEntity
+import com.infinitybet.premierleague.core.database.model.AuthorEntity
 import com.infinitybet.premierleague.core.network.model.NetworkAuthor
 
 fun NetworkAuthor.asEntity() = AuthorEntity(

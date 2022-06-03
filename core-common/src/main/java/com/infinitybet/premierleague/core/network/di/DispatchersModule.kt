@@ -1,7 +1,7 @@
-package com.google.samples.apps.nowinandroid.core.network.di
+package com.infinitybet.premierleague.core.network.di
 
-import com.google.samples.apps.nowinandroid.core.network.Dispatcher
-import com.google.samples.apps.nowinandroid.core.network.NiaDispatchers.IO
+import com.infinitybet.premierleague.core.network.Dispatcher
+import com.infinitybet.premierleague.core.network.NiaDispatchers.IO
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

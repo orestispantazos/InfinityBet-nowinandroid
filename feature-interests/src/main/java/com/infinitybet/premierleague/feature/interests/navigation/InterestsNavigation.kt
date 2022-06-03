@@ -1,10 +1,10 @@
-package com.google.samples.apps.nowinandroid.feature.interests.navigation
+package com.infinitybet.premierleague.feature.interests.navigation
 
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.compose.composable
 import androidx.navigation.navigation
 import com.infinitybet.premierleague.core.navigation.NiaNavigationDestination
-import com.google.samples.apps.nowinandroid.feature.interests.InterestsRoute
+import com.infinitybet.premierleague.feature.interests.InterestsRoute
 
 object InterestsDestination : NiaNavigationDestination {
     override val route = "interests_route"

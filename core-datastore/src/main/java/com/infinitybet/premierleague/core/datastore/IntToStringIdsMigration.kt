@@ -1,6 +1,8 @@
-package com.google.samples.apps.nowinandroid.core.datastore
+package com.infinitybet.premierleague.core.datastore
 
 import androidx.datastore.core.DataMigration
+import com.infinitybet.premierleague.core.datastore.UserPreferences
+import com.infinitybet.premierleague.core.datastore.copy
 
 /**
  * Migrates saved ids from [Int] to [String] types

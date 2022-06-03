@@ -1,4 +1,4 @@
-package com.google.samples.apps.nowinandroid.core.database.dao
+package com.infinitybet.premierleague.core.database.dao
 
 /**
  * Performs an upsert by first attempting to insert [items] using [insertMany] with the the result

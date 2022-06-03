@@ -1,11 +1,11 @@
-package com.google.samples.apps.nowinandroid.feature.topic.navigation
+package com.infinitybet.premierleague.feature.topic.navigation
 
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavType
 import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
 import com.infinitybet.premierleague.core.navigation.NiaNavigationDestination
-import com.google.samples.apps.nowinandroid.feature.topic.TopicRoute
+import com.infinitybet.premierleague.feature.topic.TopicRoute
 
 object TopicDestination : NiaNavigationDestination {
     override val route = "topic_route"

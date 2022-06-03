@@ -8,7 +8,7 @@ plugins {
 
 android {
     defaultConfig {
-        testInstrumentationRunner = "com.google.samples.apps.nowinandroid.core.testing.NiaTestRunner"
+        testInstrumentationRunner = "com.infinitybet.premierleague.core.testing.NiaTestRunner"
     }
 }
 

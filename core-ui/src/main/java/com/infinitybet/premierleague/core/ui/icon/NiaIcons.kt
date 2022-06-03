@@ -1,4 +1,4 @@
-package com.google.samples.apps.nowinandroid.core.ui.icon
+package com.infinitybet.premierleague.core.ui.icon
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.MoreVert
@@ -19,7 +19,7 @@ import androidx.compose.material.icons.rounded.ViewDay
 import androidx.compose.material.icons.rounded.VolumeOff
 import androidx.compose.material.icons.rounded.VolumeUp
 import androidx.compose.ui.graphics.vector.ImageVector
-import com.google.samples.apps.nowinandroid.core.ui.R
+import com.infinitybet.premierleague.core.ui.R
 
 /**
  * Now in Android icons. Material icons are [ImageVector]s, custom icons are drawable resource IDs.

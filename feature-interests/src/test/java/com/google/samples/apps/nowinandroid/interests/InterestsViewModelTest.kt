@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.interests
+package com.infinitybet.premierleague.interests
 
 import app.cash.turbine.test
-import com.google.samples.apps.nowinandroid.core.model.data.Author
-import com.google.samples.apps.nowinandroid.core.model.data.FollowableAuthor
-import com.google.samples.apps.nowinandroid.core.model.data.FollowableTopic
-import com.google.samples.apps.nowinandroid.core.model.data.Topic
-import com.google.samples.apps.nowinandroid.core.testing.repository.TestAuthorsRepository
-import com.google.samples.apps.nowinandroid.core.testing.repository.TestTopicsRepository
-import com.google.samples.apps.nowinandroid.core.testing.util.TestDispatcherRule
-import com.google.samples.apps.nowinandroid.feature.interests.InterestsUiState
-import com.google.samples.apps.nowinandroid.feature.interests.InterestsViewModel
+import com.infinitybet.premierleague.core.model.data.Author
+import com.infinitybet.premierleague.core.model.data.FollowableAuthor
+import com.infinitybet.premierleague.core.model.data.FollowableTopic
+import com.infinitybet.premierleague.core.model.data.Topic
+import com.infinitybet.premierleague.core.testing.repository.TestAuthorsRepository
+import com.infinitybet.premierleague.core.testing.repository.TestTopicsRepository
+import com.infinitybet.premierleague.core.testing.util.TestDispatcherRule
+import com.infinitybet.premierleague.feature.interests.InterestsUiState
+import com.infinitybet.premierleague.feature.interests.InterestsViewModel
 import kotlinx.coroutines.test.runTest
 import org.junit.Assert.assertEquals
 import org.junit.Before

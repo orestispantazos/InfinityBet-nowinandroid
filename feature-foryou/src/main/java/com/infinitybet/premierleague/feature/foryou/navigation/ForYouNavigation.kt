@@ -1,10 +1,10 @@
-package com.google.samples.apps.nowinandroid.feature.foryou.navigation
+package com.infinitybet.premierleague.feature.foryou.navigation
 
 import androidx.compose.material3.windowsizeclass.WindowSizeClass
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.compose.composable
 import com.infinitybet.premierleague.core.navigation.NiaNavigationDestination
-import com.google.samples.apps.nowinandroid.feature.foryou.ForYouRoute
+import com.infinitybet.premierleague.feature.foryou.ForYouRoute
 
 object ForYouDestination : NiaNavigationDestination {
     override val route = "for_you_route"

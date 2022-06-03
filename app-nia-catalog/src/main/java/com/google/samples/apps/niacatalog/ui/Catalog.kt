@@ -37,20 +37,20 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import com.google.accompanist.flowlayout.FlowRow
-import com.google.samples.apps.nowinandroid.core.ui.component.NiaDropdownMenuButton
-import com.google.samples.apps.nowinandroid.core.ui.component.NiaFilledButton
-import com.google.samples.apps.nowinandroid.core.ui.component.NiaFilterChip
-import com.google.samples.apps.nowinandroid.core.ui.component.NiaNavigationBar
-import com.google.samples.apps.nowinandroid.core.ui.component.NiaNavigationBarItem
-import com.google.samples.apps.nowinandroid.core.ui.component.NiaOutlinedButton
-import com.google.samples.apps.nowinandroid.core.ui.component.NiaTab
-import com.google.samples.apps.nowinandroid.core.ui.component.NiaTabRow
-import com.google.samples.apps.nowinandroid.core.ui.component.NiaTextButton
-import com.google.samples.apps.nowinandroid.core.ui.component.NiaToggleButton
-import com.google.samples.apps.nowinandroid.core.ui.component.NiaTopicTag
-import com.google.samples.apps.nowinandroid.core.ui.component.NiaViewToggleButton
-import com.google.samples.apps.nowinandroid.core.ui.icon.NiaIcons
-import com.google.samples.apps.nowinandroid.core.ui.theme.NiaTheme
+import com.infinitybet.premierleague.core.ui.component.NiaDropdownMenuButton
+import com.infinitybet.premierleague.core.ui.component.NiaFilledButton
+import com.infinitybet.premierleague.core.ui.component.NiaFilterChip
+import com.infinitybet.premierleague.core.ui.component.NiaNavigationBar
+import com.infinitybet.premierleague.core.ui.component.NiaNavigationBarItem
+import com.infinitybet.premierleague.core.ui.component.NiaOutlinedButton
+import com.infinitybet.premierleague.core.ui.component.NiaTab
+import com.infinitybet.premierleague.core.ui.component.NiaTabRow
+import com.infinitybet.premierleague.core.ui.component.NiaTextButton
+import com.infinitybet.premierleague.core.ui.component.NiaToggleButton
+import com.infinitybet.premierleague.core.ui.component.NiaTopicTag
+import com.infinitybet.premierleague.core.ui.component.NiaViewToggleButton
+import com.infinitybet.premierleague.core.ui.icon.NiaIcons
+import com.infinitybet.premierleague.core.ui.theme.NiaTheme
 
 /**
  * Now in Android component catalog.

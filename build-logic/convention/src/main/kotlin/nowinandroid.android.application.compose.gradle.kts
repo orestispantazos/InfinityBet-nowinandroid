@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import com.google.samples.apps.nowinandroid.configureAndroidCompose
+import com.infinitybet.premierleague.configureAndroidCompose
 
 plugins {
     id("com.android.application")

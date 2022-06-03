@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.core.testing.di
+package com.infinitybet.premierleague.core.testing.di
 
-import com.google.samples.apps.nowinandroid.core.network.Dispatcher
-import com.google.samples.apps.nowinandroid.core.network.NiaDispatchers.IO
-import com.google.samples.apps.nowinandroid.core.network.di.DispatchersModule
+import com.infinitybet.premierleague.core.network.Dispatcher
+import com.infinitybet.premierleague.core.network.NiaDispatchers.IO
+import com.infinitybet.premierleague.core.network.di.DispatchersModule
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.components.SingletonComponent

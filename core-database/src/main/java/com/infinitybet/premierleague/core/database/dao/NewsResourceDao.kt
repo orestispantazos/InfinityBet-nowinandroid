@@ -1,4 +1,4 @@
-package com.google.samples.apps.nowinandroid.core.database.dao
+package com.infinitybet.premierleague.core.database.dao
 
 import androidx.room.Dao
 import androidx.room.Insert
@@ -6,11 +6,11 @@ import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import androidx.room.Transaction
 import androidx.room.Update
-import com.google.samples.apps.nowinandroid.core.database.model.NewsResourceAuthorCrossRef
-import com.google.samples.apps.nowinandroid.core.database.model.NewsResourceEntity
-import com.google.samples.apps.nowinandroid.core.database.model.NewsResourceTopicCrossRef
-import com.google.samples.apps.nowinandroid.core.database.model.PopulatedNewsResource
-import com.google.samples.apps.nowinandroid.core.model.data.NewsResource
+import com.infinitybet.premierleague.core.database.model.NewsResourceAuthorCrossRef
+import com.infinitybet.premierleague.core.database.model.NewsResourceEntity
+import com.infinitybet.premierleague.core.database.model.NewsResourceTopicCrossRef
+import com.infinitybet.premierleague.core.database.model.PopulatedNewsResource
+import com.infinitybet.premierleague.core.model.data.NewsResource
 import kotlinx.coroutines.flow.Flow
 
 /**

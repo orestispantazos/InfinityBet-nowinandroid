@@ -1,9 +1,9 @@
-package com.google.samples.apps.nowinandroid.core.network.model
+package com.infinitybet.premierleague.core.network.model
 
-import com.google.samples.apps.nowinandroid.core.model.data.NewsResource
-import com.google.samples.apps.nowinandroid.core.model.data.NewsResourceType
-import com.google.samples.apps.nowinandroid.core.network.model.util.InstantSerializer
-import com.google.samples.apps.nowinandroid.core.network.model.util.NewsResourceTypeSerializer
+import com.infinitybet.premierleague.core.network.model.NetworkTopic
+import com.infinitybet.premierleague.core.model.data.NewsResourceType
+import com.infinitybet.premierleague.core.network.model.util.InstantSerializer
+import com.infinitybet.premierleague.core.network.model.util.NewsResourceTypeSerializer
 import kotlinx.datetime.Instant
 import kotlinx.serialization.Serializable
 

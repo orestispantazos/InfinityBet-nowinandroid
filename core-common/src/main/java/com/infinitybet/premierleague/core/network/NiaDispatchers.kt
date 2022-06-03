@@ -1,4 +1,4 @@
-package com.google.samples.apps.nowinandroid.core.network
+package com.infinitybet.premierleague.core.network
 
 import javax.inject.Qualifier
 import kotlin.annotation.AnnotationRetention.RUNTIME

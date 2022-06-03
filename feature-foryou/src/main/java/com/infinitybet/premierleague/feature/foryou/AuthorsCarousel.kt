@@ -1,4 +1,4 @@
-package com.google.samples.apps.nowinandroid.feature.foryou
+package com.infinitybet.premierleague.feature.foryou
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.interaction.MutableInteractionSource

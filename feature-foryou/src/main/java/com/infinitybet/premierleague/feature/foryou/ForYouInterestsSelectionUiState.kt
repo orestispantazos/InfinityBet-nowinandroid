@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.feature.foryou
+package com.infinitybet.premierleague.feature.foryou
 
 import com.infinitybet.premierleague.core.model.data.FollowableAuthor
 import com.infinitybet.premierleague.core.model.data.FollowableTopic

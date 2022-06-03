@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.feature.foryou
+package com.infinitybet.premierleague.feature.foryou
 
 /**
  * A sealed hierarchy for the user's current followed interests state.

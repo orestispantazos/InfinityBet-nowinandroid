@@ -1,4 +1,4 @@
-package com.google.samples.apps.nowinandroid.core.network.fake
+package com.infinitybet.premierleague.core.network.fake
 
 import kotlinx.coroutines.test.StandardTestDispatcher
 import kotlinx.coroutines.test.runTest

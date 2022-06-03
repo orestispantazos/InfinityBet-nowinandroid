@@ -1,4 +1,4 @@
-package com.google.samples.apps.nowinandroid.navigation
+package com.infinitybet.premierleague.navigation
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Grid3x3
@@ -8,10 +8,10 @@ import androidx.compose.material.icons.outlined.Upcoming
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.navigation.NavGraph.Companion.findStartDestination
 import androidx.navigation.NavHostController
-import com.google.samples.apps.nowinandroid.feature.foryou.R.string.for_you
-import com.google.samples.apps.nowinandroid.feature.foryou.navigation.ForYouDestination
-import com.google.samples.apps.nowinandroid.feature.interests.R.string.interests
-import com.google.samples.apps.nowinandroid.feature.interests.navigation.InterestsDestination
+import com.infinitybet.premierleague.feature.foryou.R.string.for_you
+import com.infinitybet.premierleague.feature.foryou.navigation.ForYouDestination
+import com.infinitybet.premierleague.feature.interests.R.string.interests
+import com.infinitybet.premierleague.feature.interests.navigation.InterestsDestination
 
 /**
  * Routes for the different top level destinations in the application. Each of these destinations

@@ -1,8 +1,8 @@
-package com.google.samples.apps.nowinandroid.feature.interests
+package com.infinitybet.premierleague.feature.interests
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.google.samples.apps.nowinandroid.core.data.combine
+import com.infinitybet.premierleague.core.data.combine
 import com.infinitybet.premierleague.core.data.repository.AuthorsRepository
 import com.infinitybet.premierleague.core.data.repository.PredictionsRepository
 import com.infinitybet.premierleague.core.data.repository.TopicsRepository

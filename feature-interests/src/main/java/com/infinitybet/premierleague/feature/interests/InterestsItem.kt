@@ -1,4 +1,4 @@
-package com.google.samples.apps.nowinandroid.feature.interests
+package com.infinitybet.premierleague.feature.interests
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -24,7 +24,7 @@ import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
 import com.infinitybet.premierleague.core.ui.FollowButton
 import com.infinitybet.premierleague.core.ui.theme.NiaTheme
-import com.google.samples.apps.nowinandroid.feature.interests.R.string
+import com.infinitybet.premierleague.feature.interests.R.string
 
 @Composable
 fun InterestsItem(

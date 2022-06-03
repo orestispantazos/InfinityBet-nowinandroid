@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.core.data.model
+package com.infinitybet.premierleague.core.data.model
 
-import com.google.samples.apps.nowinandroid.core.model.data.NewsResourceType.Article
+import com.infinitybet.premierleague.core.model.data.NewsResourceType.Article
 import com.infinitybet.premierleague.core.network.model.NetworkAuthor
 import com.infinitybet.premierleague.core.network.model.NetworkEpisode
 import com.infinitybet.premierleague.core.network.model.NetworkEpisodeExpanded

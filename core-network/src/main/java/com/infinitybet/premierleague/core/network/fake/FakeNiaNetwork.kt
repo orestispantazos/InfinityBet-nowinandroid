@@ -1,13 +1,13 @@
-package com.google.samples.apps.nowinandroid.core.network.fake
+package com.infinitybet.premierleague.core.network.fake
 
-import com.google.samples.apps.nowinandroid.core.network.Dispatcher
-import com.google.samples.apps.nowinandroid.core.network.NiaDispatchers.IO
-import com.google.samples.apps.nowinandroid.core.network.NiaNetwork
-import com.google.samples.apps.nowinandroid.core.network.model.NetworkAuthor
-import com.google.samples.apps.nowinandroid.core.network.model.NetworkChangeList
-import com.google.samples.apps.nowinandroid.core.network.model.NetworkNewsResource
-import com.google.samples.apps.nowinandroid.core.network.model.NetworkPrediction
-import com.google.samples.apps.nowinandroid.core.network.model.NetworkTopic
+import com.infinitybet.premierleague.core.network.Dispatcher
+import com.infinitybet.premierleague.core.network.NiaDispatchers.IO
+import com.infinitybet.premierleague.core.network.NiaNetwork
+import com.infinitybet.premierleague.core.network.model.NetworkAuthor
+import com.infinitybet.premierleague.core.network.model.NetworkChangeList
+import com.infinitybet.premierleague.core.network.model.NetworkNewsResource
+import com.infinitybet.premierleague.core.network.model.NetworkPrediction
+import com.infinitybet.premierleague.core.network.model.NetworkTopic
 import javax.inject.Inject
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.withContext

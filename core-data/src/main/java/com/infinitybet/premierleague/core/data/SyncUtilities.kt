@@ -1,7 +1,7 @@
-package com.google.samples.apps.nowinandroid.core.data
+package com.infinitybet.premierleague.core.data
 
 import android.util.Log
-import com.google.samples.apps.nowinandroid.core.datastore.ChangeListVersions
+import com.infinitybet.premierleague.core.datastore.ChangeListVersions
 import com.infinitybet.premierleague.core.network.model.NetworkChangeList
 import kotlin.coroutines.cancellation.CancellationException
 import kotlinx.coroutines.flow.Flow

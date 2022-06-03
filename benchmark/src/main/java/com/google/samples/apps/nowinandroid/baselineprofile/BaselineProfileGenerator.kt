@@ -1,4 +1,4 @@
-package com.google.samples.apps.nowinandroid.baselineprofile
+package com.infinitybet.premierleague.baselineprofile
 
 import androidx.benchmark.macro.ExperimentalBaselineProfilesApi
 import androidx.benchmark.macro.junit4.BaselineProfileRule
@@ -16,7 +16,7 @@ class BaselineProfileGenerator {
     @Test
     fun startup() =
         baselineProfileRule.collectBaselineProfile(
-            packageName = "com.google.samples.apps.nowinandroid"
+            packageName = "com.infinitybet.premierleague"
         ) {
             pressHome()
             // This block defines the app's critical user journey. Here we are interested in

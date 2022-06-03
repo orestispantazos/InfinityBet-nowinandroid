@@ -1,10 +1,10 @@
-package com.google.samples.apps.nowinandroid
+package com.infinitybet.premierleague
 
 import android.app.Application
 import coil.ImageLoader
 import coil.ImageLoaderFactory
 import coil.decode.SvgDecoder
-import com.google.samples.apps.nowinandroid.sync.initializers.Sync
+import com.infinitybet.premierleague.sync.initializers.Sync
 import dagger.hilt.android.HiltAndroidApp
 
 /**

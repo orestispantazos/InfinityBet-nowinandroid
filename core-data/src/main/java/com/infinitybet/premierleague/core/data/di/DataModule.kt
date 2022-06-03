@@ -1,13 +1,13 @@
-package com.google.samples.apps.nowinandroid.core.data.di
+package com.infinitybet.premierleague.core.data.di
 
-import com.google.samples.apps.nowinandroid.core.data.repository.AuthorsRepository
-import com.google.samples.apps.nowinandroid.core.data.repository.NewsRepository
-import com.google.samples.apps.nowinandroid.core.data.repository.OfflineFirstAuthorsRepository
-import com.google.samples.apps.nowinandroid.core.data.repository.OfflineFirstNewsRepository
-import com.google.samples.apps.nowinandroid.core.data.repository.OfflineFirstPredictionsRepository
-import com.google.samples.apps.nowinandroid.core.data.repository.OfflineFirstTopicsRepository
-import com.google.samples.apps.nowinandroid.core.data.repository.PredictionsRepository
-import com.google.samples.apps.nowinandroid.core.data.repository.TopicsRepository
+import com.infinitybet.premierleague.core.data.repository.AuthorsRepository
+import com.infinitybet.premierleague.core.data.repository.NewsRepository
+import com.infinitybet.premierleague.core.data.repository.OfflineFirstAuthorsRepository
+import com.infinitybet.premierleague.core.data.repository.OfflineFirstNewsRepository
+import com.infinitybet.premierleague.core.data.repository.OfflineFirstPredictionsRepository
+import com.infinitybet.premierleague.core.data.repository.OfflineFirstTopicsRepository
+import com.infinitybet.premierleague.core.data.repository.PredictionsRepository
+import com.infinitybet.premierleague.core.data.repository.TopicsRepository
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn

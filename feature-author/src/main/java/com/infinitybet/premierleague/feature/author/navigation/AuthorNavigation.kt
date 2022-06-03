@@ -1,11 +1,11 @@
-package com.google.samples.apps.nowinandroid.feature.author.navigation
+package com.infinitybet.premierleague.feature.author.navigation
 
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavType
 import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
 import com.infinitybet.premierleague.core.navigation.NiaNavigationDestination
-import com.google.samples.apps.nowinandroid.feature.author.AuthorRoute
+import com.infinitybet.premierleague.feature.author.AuthorRoute
 
 object AuthorDestination : NiaNavigationDestination {
     override val route = "author_route"

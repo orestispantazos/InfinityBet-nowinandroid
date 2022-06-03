@@ -2,7 +2,7 @@ plugins {
     `kotlin-dsl`
 }
 
-group = "com.google.samples.apps.nowinandroid.buildlogic"
+group = "com.infinitybet.premierleague.buildlogic"
 
 java {
     sourceCompatibility = JavaVersion.VERSION_1_8

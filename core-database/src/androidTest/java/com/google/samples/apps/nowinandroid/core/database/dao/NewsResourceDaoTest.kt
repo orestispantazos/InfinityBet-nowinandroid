@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.core.database.dao
+package com.infinitybet.premierleague.core.database.dao
 
 import android.content.Context
 import androidx.room.Room
 import androidx.test.core.app.ApplicationProvider
-import com.google.samples.apps.nowinandroid.core.database.NiaDatabase
-import com.google.samples.apps.nowinandroid.core.database.model.AuthorEntity
-import com.google.samples.apps.nowinandroid.core.database.model.EpisodeEntity
-import com.google.samples.apps.nowinandroid.core.database.model.NewsResourceAuthorCrossRef
-import com.google.samples.apps.nowinandroid.core.database.model.NewsResourceEntity
-import com.google.samples.apps.nowinandroid.core.database.model.NewsResourceTopicCrossRef
-import com.google.samples.apps.nowinandroid.core.database.model.TopicEntity
-import com.google.samples.apps.nowinandroid.core.database.model.asExternalModel
-import com.google.samples.apps.nowinandroid.core.model.data.NewsResourceType
+import com.infinitybet.premierleague.core.database.NiaDatabase
+import com.infinitybet.premierleague.core.database.model.AuthorEntity
+import com.infinitybet.premierleague.core.database.model.EpisodeEntity
+import com.infinitybet.premierleague.core.database.model.NewsResourceAuthorCrossRef
+import com.infinitybet.premierleague.core.database.model.NewsResourceEntity
+import com.infinitybet.premierleague.core.database.model.NewsResourceTopicCrossRef
+import com.infinitybet.premierleague.core.database.model.TopicEntity
+import com.infinitybet.premierleague.core.database.model.asExternalModel
+import com.infinitybet.premierleague.core.model.data.NewsResourceType
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.test.runTest
 import kotlinx.datetime.Instant

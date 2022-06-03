@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.core.ui.theme
+package com.infinitybet.premierleague.core.ui.theme
 
 import androidx.compose.ui.graphics.Color
 import androidx.core.graphics.ColorUtils

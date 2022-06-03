@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.core.datastore
+package com.infinitybet.premierleague.core.datastore
 
 import kotlinx.coroutines.test.runTest
 import org.junit.Assert.assertEquals

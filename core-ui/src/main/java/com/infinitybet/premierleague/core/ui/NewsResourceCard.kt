@@ -1,4 +1,4 @@
-package com.google.samples.apps.nowinandroid.core.ui
+package com.infinitybet.premierleague.core.ui
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -45,11 +45,13 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.core.os.ConfigurationCompat
 import coil.compose.AsyncImage
+import com.infinitybet.premierleague.core.ui.TimeZoneBroadcastReceiver
 import com.infinitybet.premierleague.core.model.data.Author
 import com.infinitybet.premierleague.core.model.data.NewsResource
 import com.infinitybet.premierleague.core.model.data.NewsResourceType.Article
 import com.infinitybet.premierleague.core.model.data.Topic
-import com.google.samples.apps.nowinandroid.core.ui.theme.NiaTheme
+import com.infinitybet.premierleague.core.ui.theme.NiaTheme
+import com.infinitybet.premierleague.core.ui.R
 import java.time.ZoneId
 import java.time.format.DateTimeFormatter
 import kotlinx.datetime.Instant

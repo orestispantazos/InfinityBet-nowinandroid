@@ -1,10 +1,10 @@
-package com.google.samples.apps.nowinandroid.core.database
+package com.infinitybet.premierleague.core.database
 
-import com.google.samples.apps.nowinandroid.core.database.dao.AuthorDao
-import com.google.samples.apps.nowinandroid.core.database.dao.EpisodeDao
-import com.google.samples.apps.nowinandroid.core.database.dao.NewsResourceDao
-import com.google.samples.apps.nowinandroid.core.database.dao.PredictionDao
-import com.google.samples.apps.nowinandroid.core.database.dao.TopicDao
+import com.infinitybet.premierleague.core.database.dao.AuthorDao
+import com.infinitybet.premierleague.core.database.dao.EpisodeDao
+import com.infinitybet.premierleague.core.database.dao.NewsResourceDao
+import com.infinitybet.premierleague.core.database.dao.PredictionDao
+import com.infinitybet.premierleague.core.database.dao.TopicDao
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

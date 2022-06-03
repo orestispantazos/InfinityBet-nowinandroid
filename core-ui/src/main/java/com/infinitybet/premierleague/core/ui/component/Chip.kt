@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.core.ui.component
+package com.infinitybet.premierleague.core.ui.component
 
 import androidx.compose.foundation.selection.toggleable
 import androidx.compose.material3.Icon
@@ -23,7 +23,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.semantics.Role
-import com.google.samples.apps.nowinandroid.core.ui.icon.NiaIcons
+import com.infinitybet.premierleague.core.ui.icon.NiaIcons
 
 /**
  * Now in Android filter chip with included leading checked icon as well as text content slot.

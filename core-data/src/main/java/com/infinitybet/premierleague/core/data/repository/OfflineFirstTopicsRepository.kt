@@ -1,14 +1,14 @@
-package com.google.samples.apps.nowinandroid.core.data.repository
+package com.infinitybet.premierleague.core.data.repository
 
-import com.google.samples.apps.nowinandroid.core.data.Synchronizer
-import com.google.samples.apps.nowinandroid.core.data.changeListSync
-import com.google.samples.apps.nowinandroid.core.data.model.asEntity
-import com.google.samples.apps.nowinandroid.core.database.dao.TopicDao
-import com.google.samples.apps.nowinandroid.core.database.model.TopicEntity
-import com.google.samples.apps.nowinandroid.core.database.model.asExternalModel
-import com.google.samples.apps.nowinandroid.core.datastore.ChangeListVersions
-import com.google.samples.apps.nowinandroid.core.datastore.NiaPreferences
-import com.google.samples.apps.nowinandroid.core.model.data.Topic
+import com.infinitybet.premierleague.core.data.Synchronizer
+import com.infinitybet.premierleague.core.data.changeListSync
+import com.infinitybet.premierleague.core.data.model.asEntity
+import com.infinitybet.premierleague.core.database.dao.TopicDao
+import com.infinitybet.premierleague.core.database.model.TopicEntity
+import com.infinitybet.premierleague.core.database.model.asExternalModel
+import com.infinitybet.premierleague.core.datastore.ChangeListVersions
+import com.infinitybet.premierleague.core.datastore.NiaPreferences
+import com.infinitybet.premierleague.core.model.data.Topic
 import com.infinitybet.premierleague.core.network.NiaNetwork
 import com.infinitybet.premierleague.core.network.model.NetworkTopic
 import javax.inject.Inject

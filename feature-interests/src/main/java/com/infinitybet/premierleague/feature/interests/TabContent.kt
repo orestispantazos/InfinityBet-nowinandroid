@@ -1,4 +1,4 @@
-package com.google.samples.apps.nowinandroid.feature.interests
+package com.infinitybet.premierleague.feature.interests
 
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.WindowInsets

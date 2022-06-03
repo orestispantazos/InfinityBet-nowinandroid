@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.nowinandroid.feature.foryou
+package com.infinitybet.premierleague.feature.foryou
 
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.snapshotFlow
@@ -31,9 +31,9 @@ import com.infinitybet.premierleague.core.model.data.FollowableAuthor
 import com.infinitybet.premierleague.core.model.data.FollowableTopic
 import com.infinitybet.premierleague.core.model.data.NewsResource
 import com.infinitybet.premierleague.core.model.data.SaveableNewsResource
-import com.google.samples.apps.nowinandroid.feature.foryou.FollowedInterestsState.FollowedInterests
-import com.google.samples.apps.nowinandroid.feature.foryou.FollowedInterestsState.None
-import com.google.samples.apps.nowinandroid.feature.foryou.FollowedInterestsState.Unknown
+import com.infinitybet.premierleague.feature.foryou.FollowedInterestsState.FollowedInterests
+import com.infinitybet.premierleague.feature.foryou.FollowedInterestsState.None
+import com.infinitybet.premierleague.feature.foryou.FollowedInterestsState.Unknown
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 import kotlinx.coroutines.flow.Flow

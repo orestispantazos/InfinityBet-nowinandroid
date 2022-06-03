@@ -1,7 +1,9 @@
-package com.google.samples.apps.nowinandroid.core.datastore
+package com.infinitybet.premierleague.core.datastore
 
 import android.util.Log
 import androidx.datastore.core.DataStore
+import com.infinitybet.premierleague.core.datastore.UserPreferences
+import com.infinitybet.premierleague.core.datastore.copy
 import java.io.IOException
 import javax.inject.Inject
 import kotlinx.coroutines.flow.Flow

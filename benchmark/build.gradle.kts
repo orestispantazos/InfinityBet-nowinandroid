@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.google.samples.apps.nowinandroid.benchmark"
+    namespace = "com.infinitybet.premierleague.benchmark"
 
     defaultConfig {
         minSdk = 23
