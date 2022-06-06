@@ -19,14 +19,15 @@ android {
     }
     defaultConfig {
         applicationId = "com.infinitybet.premierleague"
-        versionCode = 2
-        versionName = "0.0.2" // X.Y.Z; X = Major, Y = minor, Z = Patch level
+        versionCode = 4
+        versionName = "0.0.4" // X.Y.Z; X = Major, Y = minor, Z = Patch level
 
         // Custom test runner to set up Hilt dependency graph
         testInstrumentationRunner = "com.infinitybet.premierleague.core.testing.NiaTestRunner"
         vectorDrawables {
             useSupportLibrary = true
         }
+        signingConfig = signingConfigs.getByName("release")
     }
 
     buildTypes {
@@ -72,6 +73,7 @@ dependencies {
     implementation(project(":core-navigation"))
 
     implementation(project(":sync"))
+    implementation("com.google.firebase:firebase-common-ktx:20.1.1")
 
     androidTestImplementation(project(":core-testing"))
     androidTestImplementation(project(":core-datastore-test"))

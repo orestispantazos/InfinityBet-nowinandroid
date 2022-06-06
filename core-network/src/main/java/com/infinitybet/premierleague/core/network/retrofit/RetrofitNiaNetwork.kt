@@ -6,6 +6,7 @@ import com.infinitybet.premierleague.core.network.model.NetworkNewsResource
 import com.infinitybet.premierleague.core.network.model.NetworkPrediction
 import com.infinitybet.premierleague.core.network.model.NetworkTopic
 import com.infinitybet.premierleague.core.network.BuildConfig
+import com.infinitybet.premierleague.core.network.firebase.FirebaseUserIdTokenInterceptor
 import com.infinitybet.premierleague.core.network.model.NetworkAuthor
 import com.jakewharton.retrofit2.converter.kotlinx.serialization.asConverterFactory
 import kotlinx.serialization.Serializable
@@ -87,10 +88,12 @@ class RetrofitNiaNetwork @Inject constructor(
         .client(
             OkHttpClient.Builder()
                 .addInterceptor(
-                    // TODO: Decide logging logic
-                    HttpLoggingInterceptor().apply {
-                        setLevel(HttpLoggingInterceptor.Level.BODY)
+                    FirebaseUserIdTokenInterceptor().apply {
+                        // empty
                     }
+//                    HttpLoggingInterceptor().apply {
+//                        setLevel(HttpLoggingInterceptor.Level.BODY)
+//                    }
                 )
                 .build()
         )

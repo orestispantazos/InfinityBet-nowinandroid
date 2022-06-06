@@ -6,6 +6,7 @@ import androidx.activity.compose.setContent
 import androidx.compose.material3.windowsizeclass.ExperimentalMaterial3WindowSizeClassApi
 import androidx.compose.material3.windowsizeclass.calculateWindowSizeClass
 import androidx.core.view.WindowCompat
+import com.google.firebase.FirebaseApp
 import com.infinitybet.premierleague.ui.NiaApp
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -14,6 +15,8 @@ import dagger.hilt.android.AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        FirebaseApp.initializeApp(this);
 
         // Turn off the decor fitting system windows, which allows us to handle insets,
         // including IME animations

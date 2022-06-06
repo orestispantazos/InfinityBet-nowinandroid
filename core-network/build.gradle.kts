@@ -31,6 +31,7 @@ secrets {
 dependencies {
     implementation(project(":core-common"))
     implementation(project(":core-model"))
+    implementation("com.google.firebase:firebase-auth-ktx:21.0.1")
 
     testImplementation(project(":core-testing"))
 
